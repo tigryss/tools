@@ -13,7 +13,7 @@ LOCAL_IP=$(ifconfig eth0 | grep inet | grep -v inet6 | awk '{print $2}')
 #LOCAL_IP="192.168.1.1"    
 
 #IP targets
-SCOPE1="aia.a-pki.ecb.europa.eu cdp.a-pki.ecb.europa.eu cps.a-pki.ecb.europa.eu crlwa01.a-pki-is.mgt.a-ecb.de crlwa02.a-pki-is.mgt.a-ecb.de crlwa03.a-pki-is.mgt.a-ecb.de crlwa04.a-pki-is.mgt.a-ecb.de cspwa01.a-pki-is.mgt.a-ecb.de cspwa02.a-pki-is.mgt.a-ecb.de cspwa03.a-pki-is.mgt.a-ecb.de cspwa04.a-pki-is.mgt.a-ecb.de fimcm.a-ecb01.a-ecb.de fimwa01.a-pki-is.mgt.a-ecb.de fimwa02.a-pki-is.mgt.a-ecb.de fimwa03.a-pki-is.mgt.a-ecb.de ndes.a-ecb01.a-ecb.de ocsp.a-pki.ecb.europa.eu rfswa01.a-pki-is.mgt.a-ecb.de scawa21.a-pki-is.mgt.a-ecb.de scawa22.a-pki-is.mgt.a-ecb.de scewa01.a-pki-is.mgt.a-ecb.de wafwa03.dmz01.int.ecb.de wafwa04.dmz01.int.ecb.de www.a-pki.ecb.europa.eu"
+SCOPE1=""
 
 #SCOPE2="$SCOPE1"
 SCOPE2="$SCOPE1"
